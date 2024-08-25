@@ -1,0 +1,48 @@
+.dashboard {
+    background-color: #f7f8fc;
+}
+
+.sidebar {
+    background-color: #fff;
+    border-right: 1px solid #e5e5e5;
+}
+
+.right-sidebar {
+    background-color: #fff;
+    border-left: 1px solid #e5e5e5;
+}
+
+.main-content {
+    background-color: #f7f8fc;
+}
+
+.welcome-card {
+    background-color: #ffeef0;
+}
+
+.results-card,
+.time-learning-card,
+.course-card {
+    background-color: #ffffff;
+}
+
+.course-card h6,
+.course-card p,
+.course-card button {
+    color: #ffffff;
+}
+
+.section-title {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.profile-card .profile-pic {
+    background-image: url('path/to/profile-pic.jpg');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}

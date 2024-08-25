@@ -1,0 +1,291 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F7F8FC;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 240px;
+  background-color: #F7F8FC;
+  padding: 20px;
+  color: #444;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar .list-group {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar .list-group-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: transparent;
+  color: black;
+}
+
+.sidebar .list-group-item:hover {
+  color: #5A67D8;
+  background-color: transparent;
+}
+
+.sidebar .list-group-item:before {
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #5A67D8;
+  border-radius: 50%;
+  margin-right: 10px;
+  opacity: 0;
+}
+
+.sidebar .list-group-item:hover:before {
+  opacity: 1;
+}
+
+.sidebar .list-group-item.active {
+  font-weight: bold;
+  color: #5A67D8;
+  background-color: transparent;
+}
+
+.upgrade-card {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: auto;
+}
+
+.upgrade-card p {
+  font-size: 12px;
+  color: #888;
+}
+
+.upgrade-card .upgrade-icon {
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin: 0 auto 10px;
+}
+
+.upgrade-card .btn-primary {
+  background-color: #5A67D8;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.main-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-content .header .welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-content .header .date {
+  color: #888;
+  font-size: 14px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+.card h5 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card .progress-bar {
+  height: 6px;
+  background-color: #5A67D8;
+}
+
+/* Time Spent on Learning Styles */
+.time-learning-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.time-learning-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-bar {
+  display: flex;
+  flex-direction: column;
+  width: 10px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-segment {
+  width: 100%;
+}
+
+.day-label {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.time-learning-legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.time-learning-legend span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.vocabulary {
+  background-color: #ff6384;
+}
+
+.grammar {
+  background-color: #36a2eb;
+}
+
+.listening {
+  background-color: #ffce56;
+}
+
+.writing {
+  background-color: #4bc0c0;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.progress-segment {
+  width: 100%;
+}
+
+.vocabulary {
+  background-color: #ff6b6b; /* Red color for Vocabulary */
+}
+
+.grammar {
+  background-color: #6b46c1; /* Purple color for Grammar */
+}
+
+.listening {
+  background-color: #3182ce; /* Blue color for Listening */
+}
+
+.writing {
+  background-color: #e2e8f0; /* Light gray for Writing */
+}
+
+.day-label {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.course-card {
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.course-card h6 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.course-card p {
+  font-size: 12px;
+}
+
+.course-card .btn {
+  background-color: #FFFFFF;
+  color: #5A67D8;
+  border: none;
+  font-size: 12px;
+}
+
+/* Profile and Right Sidebar */
+.profile-card .profile-pic {
+  width: 80px;
+  height: 80px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.notification-item {
+  position: relative;
+}
+
+.notification-item::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
